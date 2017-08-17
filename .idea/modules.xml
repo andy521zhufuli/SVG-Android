@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SVG-Android.iml" filepath="$PROJECT_DIR$/SVG-Android.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/action/action.iml" filepath="$PROJECT_DIR$/svg-iconlibs/action/action.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/alert/alert.iml" filepath="$PROJECT_DIR$/svg-iconlibs/alert/alert.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/av/av.iml" filepath="$PROJECT_DIR$/svg-iconlibs/av/av.iml" />
@@ -18,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/notification/notification.iml" filepath="$PROJECT_DIR$/svg-iconlibs/notification/notification.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/places/places.iml" filepath="$PROJECT_DIR$/svg-iconlibs/places/places.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/social/social.iml" filepath="$PROJECT_DIR$/svg-iconlibs/social/social.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svg-android.iml" filepath="$PROJECT_DIR$/svg-android.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-generator/svg-generator.iml" filepath="$PROJECT_DIR$/svg-generator/svg-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-iconlibs/svg-iconlibs.iml" filepath="$PROJECT_DIR$/svg-iconlibs/svg-iconlibs.iml" />
       <module fileurl="file://$PROJECT_DIR$/svg-plugin/svg-plugin.iml" filepath="$PROJECT_DIR$/svg-plugin/svg-plugin.iml" />
