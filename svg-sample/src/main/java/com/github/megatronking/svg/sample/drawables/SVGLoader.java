@@ -37,6 +37,7 @@ public class SVGLoader  {
         if (sPreloadedDrawables == null) {
             return;
         }
+        add(context, R.drawable.ic_android_red, SVGDrawable.SVGDrawableConstantState.create(new ic_android_red(context)));
         add(context, R.drawable.ic_svg_01, SVGDrawable.SVGDrawableConstantState.create(new ic_svg_01(context)));
         add(context, R.drawable.ic_svg_02, SVGDrawable.SVGDrawableConstantState.create(new ic_svg_02(context)));
         add(context, R.drawable.ic_svg_03, SVGDrawable.SVGDrawableConstantState.create(new ic_svg_03(context)));

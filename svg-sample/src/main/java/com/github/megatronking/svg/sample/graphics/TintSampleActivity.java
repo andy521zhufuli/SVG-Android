@@ -32,6 +32,8 @@ public class TintSampleActivity extends AppCompatActivity {
         SeekBar.OnSeekBarChangeListener mOnSeekBarChangeListener = new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
+                // TODO reviewed by zhufuli 2017/11/2 这里如果用到drawable强转成SVGDrawable的，上面imageview中用到的资源一定要在SVGLoader里面注册
+                // TODO reviewed by zhufuli 2017/11/2 不然会报强转出错的 具体原因还在检查中 好像是会拦截掉，这个之后再看
                 setDrawableTint((SVGDrawable) drawable, seekBarAlpha.getProgress(), seekBarRed.getProgress(), seekBarGreen.getProgress(), seekBarBlue.getProgress());
             }
 
